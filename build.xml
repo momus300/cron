@@ -4,9 +4,9 @@
     <property name="git.repo.catalog" value="/var/www/html/cron" />
     <property name="git.deploy.sh" value="deploy.sh" />
 
-    <target name="toGitHub" >
+    <target name="commit" >
         <gitcommit repository="${git.repo.catalog}" allFiles="true" message="commit z phinga" />
-        <gitpush repository="${git.repo.catalog}" />
+        <!--<gitpush repository="${git.repo.catalog}" />-->
     </target>
 
     <target name="toGitHubWithSh" >
