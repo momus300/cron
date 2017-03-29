@@ -6,12 +6,12 @@
 
     <target name="commit" >
         <gitcommit repository="${git.repo.catalog}" allFiles="true" message="commit z phinga" />
-        <gitpush repository="${git.repo.catalog}" />
+        <gitpush repository="${git.repo.catalog}" refspec="master" />
     </target>
 
     <target name="toGitHubWithSh" >
         <echo message="deploy na github"/>
-        <exec command="sh ${git.deploy.sh}" />
+        <exec command="sh ${git.deploy.sh}"  />
     </target>
 
 </project>
