@@ -1,0 +1,10 @@
+{
+    "name": "momus/cron",
+    "authors": [
+        {
+            "name": "momus300",
+            "email": "momus300@gmail.com"
+        }
+    ],
+    "require": {}
+}
