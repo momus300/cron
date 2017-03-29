@@ -11,7 +11,7 @@
 
     <target name="toGitHubWithSh" >
         <echo message="deploy na github"/>
-        <exec command="${git.deploy.sh}" />
+        <exec command="sh ${git.deploy.sh}" />
     </target>
 
 </project>
