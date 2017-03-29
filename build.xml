@@ -6,7 +6,7 @@
 
     <target name="commit" >
         <gitcommit repository="${git.repo.catalog}" allFiles="true" message="commit z phinga" />
-        <!--<gitpush repository="${git.repo.catalog}" />-->
+        <gitpush repository="${git.repo.catalog}" />
     </target>
 
     <target name="toGitHubWithSh" >
